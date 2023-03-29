@@ -364,7 +364,7 @@ trunk {
     border-radius: 30px;
 }
 
-
+/* Section 3 */
 .Section3 {
     position: relative;
     display: flex;
@@ -392,7 +392,6 @@ trunk {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .Section3-2 {
     position: relative;
     display: flex;
@@ -406,7 +405,6 @@ trunk {
     border-radius: 10px;
     background-color: #ff8615;
 }
-
 .Section3-3 {
     position: relative;
     display: flex;
@@ -471,22 +469,65 @@ trunk {
     transition: 0.4s;
 }
 
-
+/* Ruban 1 */
 .Ruban1 {
     display: flex;
     justify-content: space-around;
-    max-width: 1600px;
-    min-width: 960px;
+    align-items: center;
+    height: 40px;
+    max-width: 960px;
+    min-width: 780px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #ff8615;
 }
+.Ruban1-1 .Ruban1-2 .Ruban1-3 {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+.Ruban1 p {
+    font-weight: 600;
+}
+
+/* Ruban 2 */
 .Ruban2 {
     display: flex;
     justify-content: space-around;
-    max-width: 1600px;
-    min-width: 960px;
+    align-items: center;
+    height: 40px;
+    max-width: 960px;
+    min-width: 780px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #ff8615;
 }
+.Ruban2-1 .Ruban2-2 .Ruban2-3 {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+.Ruban2 p {
+    font-weight: 600;
+}
+
+/* Ruban 3 */
 .Ruban3 {
     display: flex;
     justify-content: space-around;
-    max-width: 1600px;
-    min-width: 960px;
+    align-items: center;
+    height: 40px;
+    max-width: 960px;
+    min-width: 780px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #ff8615;
+}
+.Ruban3-1 .Ruban3-2 .Ruban3-3 {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+.Ruban3 p {
+    font-weight: 600;
 }
